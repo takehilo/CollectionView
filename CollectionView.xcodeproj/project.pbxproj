@@ -27,8 +27,8 @@
 		6D58750C208986050059E2BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D58750E208986050059E2BE /* Minimum-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Minimum-Info.plist"; sourceTree = "<group>"; };
 		6D5875192089CD010059E2BE /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		6D5875282089CDA20059E2BE /* Other.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Other.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D5875292089CDA20059E2BE /* Other-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Other-Info.plist"; path = "/Users/takehiro/Documents/git/CollectionView/CollectionView/Other-Info.plist"; sourceTree = "<absolute>"; };
+		6D5875282089CDA20059E2BE /* FlowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D5875292089CDA20059E2BE /* FlowLayout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "FlowLayout-Info.plist"; path = "/Users/takehiro/Documents/git/CollectionView/CollectionView/FlowLayout-Info.plist"; sourceTree = "<absolute>"; };
 		6D58752B2089CDDC0059E2BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6D58752F2089D1D20059E2BE /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,7 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				6D5874FF208986040059E2BE /* Minimum.app */,
-				6D5875282089CDA20059E2BE /* Other.app */,
+				6D5875282089CDA20059E2BE /* FlowLayout.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,12 +72,12 @@
 			isa = PBXGroup;
 			children = (
 				6D5875162089CC340059E2BE /* Minimum */,
-				6D5875182089CCE20059E2BE /* Other */,
+				6D5875182089CCE20059E2BE /* FlowLayout */,
 				6D587502208986040059E2BE /* AppDelegate.swift */,
 				6D587509208986050059E2BE /* Assets.xcassets */,
 				6D58750B208986050059E2BE /* LaunchScreen.storyboard */,
 				6D58750E208986050059E2BE /* Minimum-Info.plist */,
-				6D5875292089CDA20059E2BE /* Other-Info.plist */,
+				6D5875292089CDA20059E2BE /* FlowLayout-Info.plist */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -91,13 +91,13 @@
 			path = Minimum;
 			sourceTree = "<group>";
 		};
-		6D5875182089CCE20059E2BE /* Other */ = {
+		6D5875182089CCE20059E2BE /* FlowLayout */ = {
 			isa = PBXGroup;
 			children = (
 				6D5875192089CD010059E2BE /* Main.storyboard */,
 				6D58752B2089CDDC0059E2BE /* ViewController.swift */,
 			);
-			path = Other;
+			path = FlowLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,9 +120,9 @@
 			productReference = 6D5874FF208986040059E2BE /* Minimum.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6D58751B2089CDA20059E2BE /* Other */ = {
+		6D58751B2089CDA20059E2BE /* FlowLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D5875252089CDA20059E2BE /* Build configuration list for PBXNativeTarget "Other" */;
+			buildConfigurationList = 6D5875252089CDA20059E2BE /* Build configuration list for PBXNativeTarget "FlowLayout" */;
 			buildPhases = (
 				6D58751C2089CDA20059E2BE /* Sources */,
 				6D58751F2089CDA20059E2BE /* Frameworks */,
@@ -132,9 +132,9 @@
 			);
 			dependencies = (
 			);
-			name = Other;
+			name = FlowLayout;
 			productName = CollectionView;
-			productReference = 6D5875282089CDA20059E2BE /* Other.app */;
+			productReference = 6D5875282089CDA20059E2BE /* FlowLayout.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -166,7 +166,7 @@
 			projectRoot = "";
 			targets = (
 				6D5874FE208986040059E2BE /* Minimum */,
-				6D58751B2089CDA20059E2BE /* Other */,
+				6D58751B2089CDA20059E2BE /* FlowLayout */,
 			);
 		};
 /* End PBXProject section */
@@ -380,7 +380,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "$(SRCROOT)/CollectionView/Other-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/CollectionView/FlowLayout-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -397,7 +397,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "$(SRCROOT)/CollectionView/Other-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/CollectionView/FlowLayout-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -430,7 +430,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D5875252089CDA20059E2BE /* Build configuration list for PBXNativeTarget "Other" */ = {
+		6D5875252089CDA20059E2BE /* Build configuration list for PBXNativeTarget "FlowLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D5875262089CDA20059E2BE /* Debug */,
